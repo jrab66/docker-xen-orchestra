@@ -1,17 +1,23 @@
 # Xen Orchestra Docker Container
+
+working version using the actual monorepo.
+
 > stable 5.x branch of [Xen Orchestra](http://xen-orchestra.com/)
+
+
 
 ## Image Installation
 
 From Docker Hub:
 
 ```sh
-docker pull brijohn/xen-orchestra
+
+docker pull jrab66/xenorchestra
 ```
 From Source:
 
 ```sh
-git clone https://github.com/brijohn/docker-xen-orchestra.git
+git clone https://github.com/jrab66/docker-xen-orchestra.git
 cd docker-xen-orchestra
 docker build -t "xen-orchestra:latest" --rm --no-cache .
 ```
@@ -66,6 +72,8 @@ For a full list of SSL/TLS options see: [NodeJS:tls.createServer](https://nodejs
 
 
 ## Author
+
+José Barahona [Github](https://github.com/jrab66/)  - jrab6692@gmail.com
 
 Brian Johnson - [Github](https://github.com/brijohn/) - brijohn@gmail.com
 
